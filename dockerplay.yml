@@ -1,0 +1,9 @@
+---
+
+  tasks:
+    - name: Create Docker image
+	  docker_image:
+		path: .
+		name: /tmp/NameDkrImg
+		tag: v1
+		push: yes

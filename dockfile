@@ -1,0 +1,6 @@
+FROM ubuntu:latest
+
+COPY entry.sh /opt/entry.sh
+COPY firstname.sh /opt/firstname.sh
+COPY lastname.sh /opt/lastname.sh
+CMD ["/bin/sh", "/opt/entry.sh"]
